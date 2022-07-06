@@ -1,0 +1,10 @@
+一、
+"repayment_date": "2021-11-18",
+"remaining_principal": 15,
+"principal_to_be_repaid": 45
+二、
+Select keyword,month(data),sum(PC),sum(mobile)
+From key_index
+Where select * from keyword_index where data>=2020-01-01 and data<=2022-01-01
+Group by keyword;
+好久没用sql了，电脑没装sql，之前学习的sql语句与时间相关的也少，应该是对的吧，没法调试也不知道对错呜呜呜。
